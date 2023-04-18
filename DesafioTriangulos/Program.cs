@@ -4,16 +4,15 @@
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Desenhando Triângulos");
-            //for (int i = 0; i < 10; i++)
-            //{
-            //    FormaGeometrica t = new Triangulo { Altura = i + 1 };
-            //    t.Desenhar();
-            //    Thread.Sleep(1000);
-            //    Console.WriteLine();
-            //    Console.WriteLine();
-            //}
-            MetasExtendidas();
+            Console.WriteLine("Desenhando Triângulos");
+            for (int i = 0; i < 10; i++)
+            {
+                FormaGeometrica t = new Triangulo { Altura = i + 1 };
+                t.Desenhar();
+                Thread.Sleep(1000);
+                Console.WriteLine();
+                Console.WriteLine();
+            }
         }
         static void MetasExtendidas()
         {
